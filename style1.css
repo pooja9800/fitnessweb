@@ -189,7 +189,7 @@
         display: flex;
         justify-content: center;
         height: auto;
-        
+
     }
 
     .grid {
@@ -198,3 +198,49 @@
         align-items: center;
 
     }
+
+    .oninstagram {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .oninstagram p{
+        opacity: 0.8;
+
+    }
+
+
+    #pageFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(206, 13, 45);
+        color: white;
+        margin-top: 30px;
+        padding: 30px;
+
+    }
+
+    #pageFooter p {
+        padding: 25px;
+        font-size: 12px;
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #pageFooter H3 {
+        opacity: 0.7;
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .oninstagram{
+        margin-bottom: 20px;
+        font-weight: 2px;
+        font-family: OpenSans-Regular;
+        
+    }
+    .oninstagram h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 2px;}
