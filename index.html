@@ -5,8 +5,11 @@
 
     </title>
 
-
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -72,24 +75,75 @@
             </div>
         </div>
         <div class="exercisepic">
-            <div class="exercisepic" style="width: 800px;">
-                <div class="exerpic">
-                    <img src="pic5.png" alt="" width="800">
+            <div class="exercisepic">
+                <div class="exerpic" id="picholder">
+                    <img src="pic5.png" alt="">
                 </div>
                 <div class="grid">
-                    <div class="thumb"><img src="club5.jpg" alt=""></div>
-                    <div class="thumb"> <img src="club6.jpg" alt=""></div>
-                    <div class="thumb"><img src="club5.jpg" alt=""></div>
-                    <div class="thumb"><img src="club6.jpg" alt=""></div>
-                    <div class="thumb"><img src="club5.jpg" alt=""></div>
-                    <div class="thumb"><img src="club5.jpg" alt=""></div>
+                    <div class="thumb"><img onclick="changePic('club5.jpg')" src="club5.jpg" alt=""></div>
+                    <div class="thumb"> <img onclick="changePic('club6.jpg')" src="club6.jpg" alt=""></div>
+                    <div class="thumb"><img onclick="changePic('club5.jpg')" src="club5.jpg" alt=""></div>
+                    <div class="thumb"><img onclick="changePic('club6.jpg')" src="club6.jpg" alt=""></div>
+                    <div class="thumb"><img onclick="changePic('club5.jpg')" src="club5.jpg" alt=""></div>
+                    <div class="thumb"><img onclick="changePic('club5.jpg')" src="club5.jpg" alt=""></div>
                 </div>
             </div>
 
         </div>
-
+        <div class="oninstagram">
+            <div class="contain">
+                <h1>FITNESS FIRST INDIA ON INSTAGRAM </h1><br>
+                <p>
+                    Follow us on Instagram for tips, insiration and the latest happenings in our clubs
+                </P>
+            </div>
+        </div>
 
     </div>
+    <footer>
+
+        <div id="pageFooter">
+            <div class="footcontain">
+                <div class="abot">
+                    <h3>ABOUT US</h3>
+                    <p>company background <br> <br>careers <br> <br> Press room <br> <br>Reviews & Testimonials</p>
+                    <br> <br> <br><br>
+                    <h6><i class="fa-regular fa-copyright"></i>RYK VENTURES 2025</h6>
+                </div>
+                <div class="membeership">
+                    <H3>MEMBERSHIP</H3>
+                    <p>Membership options <br>
+                        Membership benefits<br>Corporate membership <br> Frequently asked questions </p>
+                </div>
+
+                <div class="clubs">
+                    <H3>CLUBS</H3>
+                    <p>club finder <br> club operating hours <br> Get 1 Day Free Pass <br>
+                        Club facilities</p>
+                </div>
+                <div class="policies">
+                    <H3>POLICIES & LEGAL</H3>
+                    <p>Privacy policy <br> Terms & conditions - Members <br> Labour compliance Documents</bra>
+                    </p>
+                </div>
+                <div class="services">
+                    <H3> CUSTOMER SERVICE </h3>
+                    <p>Members' Area <br> FAQs <br> contact us <br> Membership Enquiry</p>
+                    <br><br>
+                    <div class="socialinks">
+                        <div><i class="fa-brands fa-square-facebook"></i></div>
+                        <div><i class="fa-brands fa-twitter"></i></div>
+                        <div><i class="fa-brands fa-youtube"></i></div>
+                        <div><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <p id="btnn">hii</p>
+    <button onclick="button()">button</button>
 </body>
+
 
 </html>

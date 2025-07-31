@@ -13,35 +13,46 @@
         color: white;
     }
 
+    header {
+        position: fixed;
+        width: 100%;
+
+
+    }
+
     .menuBtns {
         display: flex;
         align-items: end;
         justify-content: end;
-        margin-bottom: 40px;
+
 
 
     }
 
     .menuBtns a {
         text-decoration: none;
-        color: orange;
-        padding: 4px;
+        color: rgb(22, 19, 14);
+        padding: 10px;
+        font-size: 20px;
+
 
     }
 
     .menuBtns a:hover {
-
-        color: rgb(0, 195, 255);
+        background-color: rgb(14, 180, 14);
     }
 
     #wrapper {
-        background-color: #0a0700;
+        background-color: #f8f4ed;
+        box-shadow: 30px;
     }
 
     .about {
         background-image: url("fitnes.jpg");
         width: 100%;
         height: 500px;
+        margin-top: 0%;
+        margin-bottom: 50px;
 
 
     }
@@ -185,11 +196,12 @@
         height: auto;
     }
 
-    .exerpic {
+    .exerpic img {
         display: flex;
         justify-content: center;
-        height: auto;
-        
+        height: 500px;
+        margin-left: 240px;
+
     }
 
     .grid {
@@ -197,4 +209,73 @@
         justify-content: center;
         align-items: center;
 
+    }
+
+    .oninstagram {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .oninstagram p {
+        opacity: 0.8;
+
+    }
+
+
+    #pageFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(206, 13, 45);
+        color: white;
+        margin-top: 30px;
+        padding: 30px;
+
+
+    }
+
+    #pageFooter p {
+        padding: 25px;
+        font-size: 12px;
+
+        font-family: "Calibri W01 Regular 904604", tahoma, arial, helvetica, verdana, sans-seri;
+    }
+
+    #pageFooter h3 {
+        opacity: 0.7;
+
+
+        font-family: "Calibri W01 Regular 904604", tahoma, arial, helvetica, verdana, sans-serif;
+    }
+
+    #pageFooter h6 {
+        opacity: 0.7;
+    }
+
+    .oninstagram {
+        margin-bottom: 20px;
+        font-weight: 2px;
+        font-family: OpenSans-Regular;
+
+    }
+
+    .oninstagram h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 2px;
+    }
+
+    .socialinks {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        font-size: 25px;
+    }
+
+    .abot {
+        word-spacing: 5px;
+    }
+    .footcontain{
+        display: flex;
     }
